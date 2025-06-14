@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>contact us</title>
+    <style>
+      body {
+        background: linear-gradient(to bottom, #bce2f1, lavender);
+      }
+      .button {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #0fd2e0;
+        color: #fff;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        text-align: left;
+      }
+      .button:hover {
+        background-color: #b1dcf0;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+      }
+    </style>
+  </head>
+  <header>
+    <button style="text-align: right" type="button" class="button">
+      <a
+        style="text-decoration: none; color: #fff"
+        href="index.html"
+        >Back to the homepage</a
+      >
+    </button>
+  </header>
+
+  <body>
+    <h2>You can come to our center at the following times &#128467;:</h2>
+    <h4 style="font-size: larger">
+      From Sunday to Thursday &#128198; <br />From 8 AM to 10 PM &#128343; to
+      &#128345;<br />
+    </h4>
+    <h2>We have several branches located in &#128506;:</h2>
+    <ul>
+      <li>Lebanon,Beirut</li>
+      <li>Jordan,Amman</li>
+      <li>Qatar,Doha</li>
+      <li>Syria,Damascus</li>
+    </ul>
+    <p
+      style="
+        font-size: xx-large;
+        text-align: right;
+        border: 2px solid #8dd5ec;
+        border-radius: 10px;
+      "
+    >
+      If you are not located in one of these areas you can contact us and we
+      will take care of the rest
+    </p>
+    <h2>Our Numbers &#128222;</h2>
+    <adress>+96000000000</adress>
+    <address>+9111111111</address>
+    <address>+9200000000</address>
+    <h2 style="background-color:rgb(252, 14);">Email:</h2>
+    <a href="https://contactwww.com">mmnn1210@gmail.com</a>
+    <main>
+      <h2>You can provid us with you information so we can send you Updates</h2>
+      <nav>
+        <h3>Please Enter:</h3>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br />
+          <label for="email"> Email:</label>
+          <input type="email" id="email" name="email" /><br />
+          <input type="submit" value="Sent" />
+        </form>
+      </nav>
+    </main>
+  </body>
+  <footer>
+    <p>&copy; 2024 MN Air and Travel. جميع الحقوق محفوظة.</p>
+  </footer>
+  <script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+        event.preventDefault(); // لإيقاف الإرسال الافتراضي للنموذج
+        alert('تم إرسال النموذج بنجاح!');
+    }
+  </script>
+</html>
